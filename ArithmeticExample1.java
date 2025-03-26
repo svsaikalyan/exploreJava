@@ -5,10 +5,26 @@ public class ArithmeticExample1{
 		int sum = a+b;
 		System.out.println("The sum of "+a+" and "+b+" is " +sum);	
 		addition(a,b);
+		sub(a,b);
+		multi(a,b);
+		modul(a%b);
+		
 	}
 	
-	public void addition(int a,int b){
+	public static  void addition(int a,int b){
 		int sum = a+b;
+		System.out.println("The sum of "+a+" and "+b+" is " +sum);
+		
+	}
+	
+	public static void sub(int a,int b){
+		int sum = a - b;
+		System.out.println("The sum of "+a+" and "+b+" is " +sum);
+		
+		
+	}
+	public static void multi(int a, int b){
+		int sum = a*b;
 		System.out.println("The sum of "+a+" and "+b+" is " +sum);
 		
 	}
